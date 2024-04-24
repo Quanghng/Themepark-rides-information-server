@@ -2,11 +2,9 @@
 
 ## Introduction
 
-This project is designed to provide additional information about rides in theme parks through this source :
+This project is designed to provide additional information about rides in theme parks through this [source](https://gist.githubusercontent.com/Jurollet/12470631232f30a81ace67add5bf839a/raw/3c514d9618b98e58a870bb2f0f01fbe3221e03f5/rides.json)
 
-```https://gist.githubusercontent.com/Jurollet/12470631232f30a81ace67add5bf839a/raw/3c514d9618b98e58a870bb2f0f01fbe3221e03f5/rides.json``` 
-
-It offers a way to display the appropiate information about various rides, using their names, height restriction, speed, etc.
+It offers a way to display, considering specific use-cases, the appropiate information about various rides, using their names, height restriction, speed, etc.
 
 Created using Typescript, NodeJS, Express and Jest for unit testing
 
@@ -43,11 +41,13 @@ The project structure is organized as follows:
 
 To install and run this project, follow these steps:
 
-1. Clone the repository to your local machine: ```git clone ```
+1. Clone the repository to your local machine: ```https://github.com/Quanghng/Themepark-rides-information-server.git```
 
 2. Navigate to the project directory: ```cd ThemeparkAPI```
 
-3. Install dependencies with npm: ```npm install ```
+3. Install dependencies with npm: ```npm ci ```
+
+*Note* :  ```npm ci``` will install exact dependency versions from the lockfile (package-lock.json) which is recommended for ensuring reproducibility.
 
 ## Run the Project
 
